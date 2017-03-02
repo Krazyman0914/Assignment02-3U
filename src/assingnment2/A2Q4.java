@@ -52,7 +52,7 @@ public class A2Q4 {
         new Wall(wien, 3, 2, Direction.SOUTH);
         new Wall(wien, 3, 3, Direction.EAST);
         new Wall(wien, 3, 3, Direction.SOUTH);
-        
+        //loop to move around the figure
         while(true){
         krazy.turnLeft();
         krazy.move();

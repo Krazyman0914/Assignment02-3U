@@ -43,7 +43,7 @@ public class A2Q2 {
         new Wall(wien, 3, 11, Direction.SOUTH);
         //CREATING NEW THING
         new Thing(wien, 3, 11);
-
+        //"while" statment to move
         while (true) {
             if (krazy.frontIsClear()) {
                 krazy.move();
